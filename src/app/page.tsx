@@ -58,7 +58,7 @@ export default function LandingPage() {
           href: "#pricing",
         },
       ]}
-      imageSrc="http://img.b2bpic.net/free-vector/abstract-future-interface-icon-set_1284-34723.jpg"
+      imageSrc="http://img.b2bpic.net/free-vector/abstract-future-interface-icon-set_1284-34723.jpg?_wi=1"
       mediaAnimation="slide-up"
       testimonials={[
         {
@@ -166,7 +166,7 @@ export default function LandingPage() {
           content: "Professional-grade animation tools that make your video stand out instantly.",
         },
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/vimeo-icon-line-connection-circuit-board_1379-895.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/vimeo-icon-line-connection-circuit-board_1379-895.jpg?_wi=1"
       mediaAnimation="slide-up"
     />
   </div>
@@ -259,7 +259,7 @@ export default function LandingPage() {
           quote: "Incredible translation tools!",
           tag: "Pro",
           avatarSrc: "http://img.b2bpic.net/free-photo/business-woman-with-glasses-smiling_23-2148053687.jpg",
-          imageSrc: "http://img.b2bpic.net/free-vector/abstract-future-interface-icon-set_1284-34723.jpg",
+          imageSrc: "http://img.b2bpic.net/free-vector/abstract-future-interface-icon-set_1284-34723.jpg?_wi=2",
           imageAlt: "happy client portrait professional",
         },
         {
@@ -270,7 +270,7 @@ export default function LandingPage() {
           quote: "Spark Edits saved me hours.",
           tag: "Pro",
           avatarSrc: "http://img.b2bpic.net/free-photo/videographer-smiling-camera-working-computer-editing-video-footage-audio-app-sitting-mo_482257-2649.jpg",
-          imageSrc: "http://img.b2bpic.net/free-photo/vimeo-icon-line-connection-circuit-board_1379-895.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/vimeo-icon-line-connection-circuit-board_1379-895.jpg?_wi=2",
           imageAlt: "happy client portrait professional",
         },
         {
