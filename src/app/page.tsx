@@ -79,6 +79,7 @@ export default function LandingPage() {
       <FeatureCardTwentySeven
       animationType="slide-up"
       textboxLayout="split"
+      useInvertedBackground={false}
       title="Comprehensive Editing Suite"
       description="Spark Edits provides everything you need for high-end video production directly in your browser."
       features={[
