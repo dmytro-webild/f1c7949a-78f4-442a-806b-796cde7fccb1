@@ -4,7 +4,7 @@ import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
 import ContactCenter from '@/components/sections/contact/ContactCenter';
 import FaqDouble from '@/components/sections/faq/FaqDouble';
-import FeatureCardTwentyOne from '@/components/sections/feature/FeatureCardTwentyOne';
+import FeatureCardTwentySeven from '@/components/sections/feature/FeatureCardTwentySeven';
 import FooterSimple from '@/components/sections/footer/FooterSimple';
 import HeroSplitTestimonial from '@/components/sections/hero/HeroSplitTestimonial';
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
@@ -47,7 +47,7 @@ export default function LandingPage() {
       useInvertedBackground={true}
       background={{ variant: "sparkles-gradient" }}
       title="Edit Like A Pro, Spark Your Vision."
-      description="The ultimate AI-powered video editing platform for creators. Subtitles, translation, and animation at your fingertips."
+      description="The ultimate AI-powered video editing platform for creators. Includes upload, timeline scrubbing, frame-by-frame cutting, precision trimming, and instant export capabilities."
       buttons={[{ text: "Start Free Trial", href: "#pricing" }]}
       imageSrc="http://img.b2bpic.net/free-vector/abstract-future-interface-icon-set_1284-34723.jpg?_wi=1"
       mediaAnimation="slide-up"
@@ -76,17 +76,17 @@ export default function LandingPage() {
   </div>
 
   <div id="features" data-section="features">
-      <FeatureCardTwentyOne
-      useInvertedBackground={false}
-      title="Cutting Edge Tools"
-      description="Unlock advanced features designed to streamline your video workflow."
-      accordionItems={[
-        { id: "a1", title: "AI-Driven Subtitles", content: "Automatically generate and animate stunning subtitles for your videos in any language." },
-        { id: "a2", title: "Multi-Language Support", content: "Translate and localize content seamlessly for English, Arabic, Russian, Chinese, and Spanish audiences." },
-        { id: "a3", title: "Real-Time Animation", content: "Professional-grade animation tools that make your video stand out instantly." },
+      <FeatureCardTwentySeven
+      animationType="slide-up"
+      textboxLayout="split"
+      title="Comprehensive Editing Suite"
+      description="Spark Edits provides everything you need for high-end video production directly in your browser."
+      features={[
+        { id: "f1", title: "Video Upload & Processing", descriptions: ["Seamlessly upload your footage in any format, processed instantly for the editor."], imageSrc: "http://img.b2bpic.net/free-photo/vimeo-icon-line-connection-circuit-board_1379-895.jpg?_wi=1" },
+        { id: "f2", title: "Timeline Scrubbing & Cutting", descriptions: ["Intuitive timeline controls for frame-by-frame precision cutting and splicing."], imageSrc: "http://img.b2bpic.net/free-photo/vimeo-icon-line-connection-circuit-board_1379-895.jpg?_wi=1" },
+        { id: "f3", title: "Professional Trimming", descriptions: ["Non-destructive trim tools that let you cut, adjust, and reorder clips easily."], imageSrc: "http://img.b2bpic.net/free-photo/vimeo-icon-line-connection-circuit-board_1379-895.jpg?_wi=1" },
+        { id: "f4", title: "Instant Export", descriptions: ["One-click export capabilities with support for 4K and professional social media formats."], imageSrc: "http://img.b2bpic.net/free-photo/vimeo-icon-line-connection-circuit-board_1379-895.jpg?_wi=1" }
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/vimeo-icon-line-connection-circuit-board_1379-895.jpg?_wi=1"
-      mediaAnimation="slide-up"
     />
   </div>
 
@@ -104,11 +104,11 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={false}
       plans={[
-        { id: "p1", badge: "Entry", price: "$1/mo", subtitle: "Perfect for starters", features: ["Basic Subtitles", "2 Languages", "7-Day Free Trial"] },
-        { id: "p2", badge: "Pro", price: "$5/mo", subtitle: "Best for content pros", features: ["All AI Tools", "5+ Languages", "Unlimited Animation", "7-Day Free Trial"] },
+        { id: "p1", badge: "Entry", price: "$1/mo", subtitle: "Perfect for starters", features: ["Basic Editing", "2 Languages", "7-Day Free Trial"] },
+        { id: "p2", badge: "Pro", price: "$5/mo", subtitle: "Best for content pros", features: ["Full Editor Access", "5+ Languages", "Unlimited Animation", "7-Day Free Trial"] },
       ]}
       title="Simple Pricing Plans"
-      description="Choose the spark you need. Get a free week-long trailer on every plan."
+      description="Choose the spark you need. Get a free week-long trial on every plan."
     />
   </div>
 
@@ -118,7 +118,7 @@ export default function LandingPage() {
       useInvertedBackground={true}
       faqs={[
         { id: "q1", title: "Do you support all languages?", content: "We support English, Arabic, Russian, Chinese, and Spanish, with more coming soon!" },
-        { id: "q2", title: "Is there a free trial?", content: "Yes, every plan comes with a one-week free trailer period." },
+        { id: "q2", title: "Is there a free trial?", content: "Yes, every plan comes with a one-week free trial period." },
         { id: "q3", title: "Can I cancel anytime?", content: "Yes, subscriptions can be managed and cancelled from your dashboard." },
       ]}
       title="Frequently Asked Questions"
