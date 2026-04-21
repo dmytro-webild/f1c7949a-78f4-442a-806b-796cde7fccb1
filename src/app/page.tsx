@@ -49,7 +49,7 @@ export default function LandingPage() {
       title="Edit Like A Pro, Spark Your Vision."
       description="The ultimate AI-powered video editing platform for creators. Subtitles, translation, and animation at your fingertips."
       buttons={[{ text: "Start Free Trial", href: "#pricing" }]}
-      imageSrc="http://img.b2bpic.net/free-vector/abstract-future-interface-icon-set_1284-34723.jpg"
+      imageSrc="http://img.b2bpic.net/free-vector/abstract-future-interface-icon-set_1284-34723.jpg?_wi=1"
       mediaAnimation="slide-up"
       testimonials={[
         { name: "Alex R.", handle: "@alexcreative", testimonial: "This platform transformed my workflow.", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/portrait-beautiful-woman-posing-with-blue-jacket_23-2149020771.jpg" },
@@ -85,7 +85,7 @@ export default function LandingPage() {
         { id: "a2", title: "Multi-Language Support", content: "Translate and localize content seamlessly for English, Arabic, Russian, Chinese, and Spanish audiences." },
         { id: "a3", title: "Real-Time Animation", content: "Professional-grade animation tools that make your video stand out instantly." },
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/vimeo-icon-line-connection-circuit-board_1379-895.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/vimeo-icon-line-connection-circuit-board_1379-895.jpg?_wi=1"
       mediaAnimation="slide-up"
     />
   </div>
@@ -132,8 +132,8 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={false}
       testimonials={[
-        { id: "t1", name: "Alice M.", date: "2023", title: "Creator", quote: "Incredible translation tools!", tag: "Pro", avatarSrc: "http://img.b2bpic.net/free-photo/business-woman-with-glasses-smiling_23-2148053687.jpg", imageSrc: "http://img.b2bpic.net/free-vector/abstract-future-interface-icon-set_1284-34723.jpg" },
-        { id: "t2", name: "Bob K.", date: "2023", title: "Editor", quote: "Spark Edits saved me hours.", tag: "Pro", avatarSrc: "http://img.b2bpic.net/free-photo/videographer-smiling-camera-working-computer-editing-video-footage-audio-app-sitting-mo_482257-2649.jpg", imageSrc: "http://img.b2bpic.net/free-photo/vimeo-icon-line-connection-circuit-board_1379-895.jpg" },
+        { id: "t1", name: "Alice M.", date: "2023", title: "Creator", quote: "Incredible translation tools!", tag: "Pro", avatarSrc: "http://img.b2bpic.net/free-photo/business-woman-with-glasses-smiling_23-2148053687.jpg", imageSrc: "http://img.b2bpic.net/free-vector/abstract-future-interface-icon-set_1284-34723.jpg?_wi=2" },
+        { id: "t2", name: "Bob K.", date: "2023", title: "Editor", quote: "Spark Edits saved me hours.", tag: "Pro", avatarSrc: "http://img.b2bpic.net/free-photo/videographer-smiling-camera-working-computer-editing-video-footage-audio-app-sitting-mo_482257-2649.jpg", imageSrc: "http://img.b2bpic.net/free-photo/vimeo-icon-line-connection-circuit-board_1379-895.jpg?_wi=2" },
         { id: "t3", name: "Claire R.", date: "2023", title: "Vlogger", quote: "The subtitles look amazing.", tag: "Pro", avatarSrc: "http://img.b2bpic.net/free-photo/traveler-female-holds-digital-photo-camera-takeaway-coffee-grey-background_613910-9804.jpg", imageSrc: "http://img.b2bpic.net/free-vector/stylish-blue-map-background-population-day_23-2147556698.jpg" },
         { id: "t4", name: "David L.", date: "2023", title: "Streamer", quote: "Best investment ever.", tag: "Pro", avatarSrc: "http://img.b2bpic.net/free-photo/close-up-portrait-stylish-pretty-young-woman-look-professional-cross-hands-chest-smiling-confident-camera-wear-glasses-standing-near-reception-office-hall-discuss-business_197531-22165.jpg", imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-man-digital-art_23-2151197857.jpg" },
         { id: "t5", name: "Emma W.", date: "2023", title: "Marketer", quote: "Absolutely essential tool.", tag: "Pro", avatarSrc: "http://img.b2bpic.net/free-photo/old-person-browsing-internet-find-artistic-inspiration-laptop-computer-using-technology-draw-artwork-sketch-drawing-artwork-masterpiece-with-creative-skills-artistic-tools_482257-45921.jpg", imageSrc: "http://img.b2bpic.net/free-vector/professional-infographic-futuristic-design_23-2148459160.jpg" },
